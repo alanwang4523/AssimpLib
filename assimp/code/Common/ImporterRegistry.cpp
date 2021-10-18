@@ -61,7 +61,7 @@ corresponding preprocessor flag to selectively disable formats.
 #endif
 
 #ifndef ASSIMP_BUILD_NO_OBJ_IMPORTER
-#   include "ObjMtl/ObjFileImporter.h"
+#   include "Obj/ObjFileImporter.h"
 #endif
 
 namespace Assimp {

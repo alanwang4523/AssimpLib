@@ -5,7 +5,6 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR}/libs)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/libs)
 set (CMAKE_CXX_STANDARD 11)
 
-#set(ASSIMP_LIB_PATH ${MAIN_PATH}/cpp/third_party/assimp)
 set(ASSIMP_LIB_PATH ./)
 
 CONFIGURE_FILE(
@@ -25,12 +24,12 @@ include_directories(${ASSIMP_LIB_PATH}/code)
 file(GLOB_RECURSE CPP_FILES_IN_LIB_ASSIMP             ${ASSIMP_LIB_PATH}/*.cpp)
 
 add_library(
-            st_assimp
+            al_assimp
             STATIC
             ${CPP_FILES_IN_LIB_ASSIMP}
 )
 
 target_link_libraries(
-                    st_assimp
+                    al_assimp
                     z m
 )
