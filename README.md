@@ -18,7 +18,9 @@
 
 # 预编译好的库
 - **在 pre_build 目录，3D 模型解析仅支持 OBJ 和 FBX 格式，后处理仅支持 FlipUVsProcess、TriangulateProcess**
-![image](https://user-images.githubusercontent.com/46780503/137740731-40b49dae-c162-44f2-ad8f-ffb3e6621da5.png)
+
+
+    ![image](https://user-images.githubusercontent.com/46780503/137740731-40b49dae-c162-44f2-ad8f-ffb3e6621da5.png)
 
 
 # 编译截图
